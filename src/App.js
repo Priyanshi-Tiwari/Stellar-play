@@ -1,10 +1,11 @@
 import "./App.css";
-import logo from "./logo.png";
+import { RoutePage } from "./route/route-page";
+
 
 function App() {
   return (
     <div className="App">
-      
+      <RoutePage/>
     </div>
   );
 }
